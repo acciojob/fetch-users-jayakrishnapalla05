@@ -33,7 +33,7 @@ const App = () => {
           </thead>
           <tbody>
             {
-              (data.length===0)?<p>No Data found to display</p>:data.map(Element=>
+              (data.length===0)?<p>No data found to display.</p>:data.map(Element=>
               {
                 return (
                   <tr>
